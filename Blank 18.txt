@@ -1,0 +1,8 @@
+      Navigation
+
+FloatingActionButton(onClick = {
+    val intent = Intent(this@MainActivity, AddNoteActivity::class.java)
+    startActivity(intent)
+}) {
+    Text("+")
+}
